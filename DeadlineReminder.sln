@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadlineReminder", "DeadlineReminder\DeadlineReminder.csproj", "{74793CB3-AFEA-40F0-8A9F-3E89DB345827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74793CB3-AFEA-40F0-8A9F-3E89DB345827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74793CB3-AFEA-40F0-8A9F-3E89DB345827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74793CB3-AFEA-40F0-8A9F-3E89DB345827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74793CB3-AFEA-40F0-8A9F-3E89DB345827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3CDC604-9F5D-49FB-99DF-1A4B014E3C56}
+	EndGlobalSection
+EndGlobal

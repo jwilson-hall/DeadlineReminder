@@ -1,0 +1,2 @@
+create a config file so the user can change colours
+change when the reminder appears in terms of how many days are left

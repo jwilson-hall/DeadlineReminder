@@ -1,0 +1,7 @@
+C:\Users\josep\OneDrive - Cardiff University\repos\!C# - Workspace\DeadlineReminder\DeadlineReminder\obj\Debug\DeadlineReminder.csprojAssemblyReference.cache
+C:\Users\josep\OneDrive - Cardiff University\repos\!C# - Workspace\DeadlineReminder\DeadlineReminder\obj\Debug\DeadlineReminder.csproj.CoreCompileInputs.cache
+C:\Users\josep\OneDrive - Cardiff University\repos\!C# - Workspace\DeadlineReminder\DeadlineReminder\bin\Debug\DeadlineReminder.exe.config
+C:\Users\josep\OneDrive - Cardiff University\repos\!C# - Workspace\DeadlineReminder\DeadlineReminder\bin\Debug\DeadlineReminder.exe
+C:\Users\josep\OneDrive - Cardiff University\repos\!C# - Workspace\DeadlineReminder\DeadlineReminder\bin\Debug\DeadlineReminder.pdb
+C:\Users\josep\OneDrive - Cardiff University\repos\!C# - Workspace\DeadlineReminder\DeadlineReminder\obj\Debug\DeadlineReminder.exe
+C:\Users\josep\OneDrive - Cardiff University\repos\!C# - Workspace\DeadlineReminder\DeadlineReminder\obj\Debug\DeadlineReminder.pdb
