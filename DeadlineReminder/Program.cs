@@ -13,7 +13,6 @@ namespace DeadlineReminder
         static void Main(string[] args)
         {
             string csvDeadlinesFile = "DeadLines.csv";
-            string configFile = "config.json";
             List<dLine> dLines = new List<dLine>();
             if (!File.Exists(csvDeadlinesFile))
             {
@@ -53,10 +52,26 @@ namespace DeadlineReminder
                     if (Next < today)
                         Next = Next.AddYears(1);
                     int daysuntilDLine = (Next - today).Days;
-                    if (daysuntilDLine <= 150 && daysuntilDLine >= 0)
+                    int daystill = 100;
+                    ConsoleColor highLightColour = ConsoleColor.Red;
+                    try
+                    {
+                        daystill = Properties.Settings.Default.DaysTill;
+                    }
+                    catch (Exception)
+                    {
+                    }
+                    try
+                    {
+                        highLightColour = Properties.Settings.Default.HighlightColour;
+                    }
+                    catch (Exception)
+                    {
+                    }
+                    if (daysuntilDLine <= daystill && daysuntilDLine >= 0)
                     {
                         Console.Write((Next - today).Days + " Days until ");
-                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = highLightColour;
                         Console.Write(dLines[i].name);
                         Console.ForegroundColor = ConsoleColor.White;
                         Console.Write(" due");
